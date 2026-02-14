@@ -1,10 +1,10 @@
-AI Resume Auditor & ATS Optimizer (n8n + Gemini)
+**AI Resume Auditor & ATS Optimizer (n8n + Gemini)**
 
-📋 Project Overview
+**📋 Project Overview**
 
 This project is an automated AI-driven "Agent" built using n8n that audits resumes. It doesn't just look for keywords; it uses Google Gemini 1.5 Flash to perform a semantic analysis of a candidate's experience against modern recruitment standards.
 
-🛠️ The Tech Stack
+**🛠️ The Tech Stack**
 
 Workflow Orchestration: n8n (Self-hosted/Cloud)
 
@@ -16,7 +16,7 @@ Trigger: [e.g., Webhook / Google Drive / Email]
 
 Notification: [e.g., Gmail / Slack / Discord]
 
-🧠 Logic & Workflow Architecture
+**🧠 Logic & Workflow Architecture**
 
 The system follows a 4-stage "Agentic" workflow:
 
@@ -34,7 +34,7 @@ Step C: Generate a "SWOT" analysis (Strengths, Weaknesses, Opportunities, Threat
 
 Delivery: The final audit is formatted into a readable report and sent automatically to the user.
 
-📂 How to Use
+**📂 How to Use**
 
 Blueprint: The resume_auditor_workflow.json file contains the exported n8n workflow.
 
